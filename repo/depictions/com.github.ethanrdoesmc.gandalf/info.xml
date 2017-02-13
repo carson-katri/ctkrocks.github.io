@@ -1,0 +1,37 @@
+<package>
+	<id>com.github.ethanrdoesmc.gandalf</id>
+	<name>Gandalf</name>
+	<version>1.0.3-7</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>DANGEROUS TWEAKS SHALL NOT PASS</description>
+		<description>Gandalf protects you from tweaks that will bootloop/brick your iPhone. You can modify the conflicts in the app on your SpringBoard.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Sample</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>Sample2</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>1.0.3-7</change>
+		<change>Added an app on the homescreen for customization.</change>
+	</changelog>
+	<links>
+		<link>
+			<name>techcrewyt</name>
+			<url>https://www.twitter.com/techcrewyt</url>
+		</link>
+	</links>
+</package>
