@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.red {
+  background-color: #fb4f55;
+  color: #000;
+}
+
+.orange {
+  background-color: #fb825a;
+  color: #000;
+}
+
+.yellow {
+  background-color: #fbf46a;
+  color: #000 !important;
+}
+
+.green {
+  background-color: #7cfb7f;
+  color: #000;
+}
+
+.blue {
+  background-color: #75a7fb;
+  color: #000;
+}
+
+.purple {
+  background-color: #a06efb;
+  color: #000;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  border-width: 0px;
+  background-color: #fff;
+  opacity: 0.25 !important;
+  color: #000;
+}
+
+a {
+  color: #000 !important;
+}
+
+body {
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 55px;
+  overflow-x: hidden;
+}
+
+input[type="text"] {
+  width: 75%;
+  height: 50px;
+  border: none;
+  opacity: 0.75;
+  color: #000;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.button-submit {
+  width: 100%;
+  height: 50px;
+  border: none;
+  opacity: 0.75;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  line-height: 50px;
+  background-color: #fff;
+  color: #000;
+  max-width: 500px;
+  min-width: 400px;
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#home {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/fall.jpg);
+    background-size: cover;
+}
+
+h1 {
+  font-weight: 800;
+  height: 300px; 
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+#work, .container, .row {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
