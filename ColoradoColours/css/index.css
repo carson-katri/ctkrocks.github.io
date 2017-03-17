@@ -47,7 +47,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin-top: 55px;
   overflow-x: hidden;
-  max-width: 100%;
 }
 
 input[type="text"] {
@@ -123,6 +122,5 @@ h2 {
   align-items: center;
   justify-content: center;
   margin: auto;
-  width: 100%;
   padding: 10px;
 }
