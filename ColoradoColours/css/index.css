@@ -47,10 +47,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin-top: 55px;
   overflow-x: hidden;
-}
-
-html {
-  overflow-x: hidden;
+  max-width: 100%;
 }
 
 input[type="text"] {
