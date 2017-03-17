@@ -46,7 +46,13 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin-top: 55px;
+}
+
+.master {
   overflow-x: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 input[type="text"] {
