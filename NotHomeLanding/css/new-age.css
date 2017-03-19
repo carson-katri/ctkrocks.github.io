@@ -262,10 +262,10 @@ section.contact {
     margin-bottom: 0; }
     section.contact ul.list-social li a {
       display: block;
-      height: 80px;
-      width: 80px;
-      line-height: 80px;
-      font-size: 40px;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      font-size: 20px;
       border-radius: 100%;
       color: white; }
     section.contact ul.list-social li.social-twitter a {
