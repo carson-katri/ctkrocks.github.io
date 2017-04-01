@@ -1,0 +1,95 @@
+/* ----- INDEX ----- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home {
+	height: 100vh;
+	position: relative;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -175%);
+}
+
+.title {
+    color: #3bd6c6;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contact-btn {
+	padding: 10px;
+	width: 200px;
+	height: 50px;
+	font-size: 17pt;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 250%);
+}
+
+nav {
+	font-weight: 700;
+}
+
+a {
+	color: #fff !important;
+}
+
+#services {
+	background-color: #3bd6c6;
+	color: #fff;
+	text-align: center;
+	padding: 50px;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+.form {
+	line-height: 50px;
+	background-color: #3bd6c6;
+	color: #fff;
+	max-width: 500px;
+	padding-top: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+input, textarea {
+	width: 75%;
+	padding: 5px;
+	color: #fff;
+}
+
+.form input[type='submit'] {
+	width: 100%;
+}
+
+button, input, .btn, textarea {
+	background-color: #89ecda;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
