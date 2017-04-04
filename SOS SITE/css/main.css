@@ -111,7 +111,7 @@ h1, h2, h3 {
 
 .form {
 	line-height: 50px;
-	background-color: #292b2c;
+	background-color: #3bd6c6;
 	color: #fff;
 	max-width: 500px;
 	padding-top: 20px;
@@ -133,7 +133,7 @@ input, textarea {
 }
 
 button, input, .btn, textarea {
-	background-color: #999;
+	background-color: #89ecda;
 	border: none;
 	color: #fff;
 	font-weight: 700;
