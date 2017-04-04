@@ -3,40 +3,78 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #3bd6c6;
 }
 
 #home {
 	height: 100vh;
 	position: relative;
+	background-color: #3bd6c6;
+	margin: 0;
+	padding: 0;
+	color: #fff;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 95px;
+    display: inline;
+    padding-bottom: 20px;
+}
 
-    position: absolute;
+.office {
+	display: inline;
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -175%);
+	width: 100%;
+	transform: translate(-27.5%, -140%);
+}
+
+.office span {
+	padding: 5px;
+}
+
+h1 {
+	font-size: 5.6rem;
+    font-weight: 700;
+}
+
+span {
+	font-size: 4rem;
+}
+
+.stellar {
+	top: 20%;
+	left: 50%;
+	transform: translate(-27%, -40%);
+}
+
+.services {
+	top: 50%;
+	left: 50%;
+	transform: translate(-27%, -60%);
+}
+
+.stellar, .services {
+	width: 100%;
+    position: absolute;
 }
 
 .title {
-    color: #3bd6c6;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
 
-    position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .contact-btn {
 	padding: 10px;
-	width: 200px;
+	width: 250px;
 	height: 50px;
 	font-size: 17pt;
+	font-weight: 700;
+	background-color: #89ecda;
+	text-align: center;
+
+	text-decoration: none !important;
 
 	position: absolute;
 	top: 50%;
@@ -53,9 +91,17 @@ a {
 }
 
 #services {
-	background-color: #3bd6c6;
-	color: #fff;
+	background-color: #fff;
+	color: #292b2c;
 	text-align: center;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+#contact {
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
 	padding: 50px;
 }
 
@@ -65,7 +111,7 @@ h1, h2, h3 {
 
 .form {
 	line-height: 50px;
-	background-color: #3bd6c6;
+	background-color: #292b2c;
 	color: #fff;
 	max-width: 500px;
 	padding-top: 20px;
@@ -87,9 +133,13 @@ input, textarea {
 }
 
 button, input, .btn, textarea {
-	background-color: #89ecda;
+	background-color: #999;
 	border: none;
 	color: #fff;
 	font-weight: 700;
 	font-size: 1.2rem;
+}
+
+input:invalid {
+	background-color: rgb(255, 0, 0);
 }
