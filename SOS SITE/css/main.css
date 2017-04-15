@@ -4,6 +4,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #3bd6c6;
+    overflow-x: none;
 }
 
 #home {
@@ -13,6 +14,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #fff;
+	overflow-x: none;
 }
 
 .logo {
@@ -26,8 +28,7 @@ body {
 	display: inline;
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	width: 100%;
+	left: 20%;
 	transform: translate(-27.5%, -140%);
 }
 
@@ -45,24 +46,75 @@ span {
 }
 
 .stellar {
-	top: 20%;
-	left: 50%;
-	transform: translate(-27%, -40%);
+	top: 50%;
+	left: 21%;
+	transform: translate(-27%, -260%);
 }
 
 .services {
 	top: 50%;
-	left: 50%;
-	transform: translate(-27%, -60%);
+	left: 22%;
+	transform: translate(-27%, -40%);
 }
 
 .stellar, .services {
-	width: 100%;
     position: absolute;
 }
 
-.title {
+.tagline {
+	font-weight: 400;
+	font-size: 30pt;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	position: absolute;
+	transform: translate(0, 160%);
+}
 
+.wave {
+    fill: #89ecda;
+    pointer-events: none;
+    z-index: -1;
+    -webkit-transition: -webkit-transform 0.7s, fill 0.7s;
+    transition: transform 0.7s, fill 0.7s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+    transition-duration: 2s;
+}
+
+.contact-wave {
+    height: 59px;
+    width: 300%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.wave-field:hover .wave {
+	-webkit-transform: translateX(-100%); 
+    -moz-transform: translateX(-100%); 
+    -ms-transform: translateX(-100%); 
+    -o-transform: translateX(-100%);  
+    transform: translateX(-100%);
+    transition-duration: 2s;
+    z-index: -1;
+}
+
+.wave-field {
+	overflow-x: hidden;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+.contact-wave-field {
+	width: 250px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 250%);
 }
 
 .contact-btn {
@@ -75,11 +127,9 @@ span {
 	text-align: center;
 
 	text-decoration: none !important;
-
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, 250%);
+	left: 0;
+	bottom: 0;
 }
 
 nav {
@@ -142,4 +192,13 @@ button, input, .btn, textarea {
 
 input:invalid {
 	background-color: rgb(255, 0, 0);
+}
+
+.navbar-toggler-icon {
+	width: 40px;
+	height: 40px;
+}
+
+.navbar-toggler {
+	border: none;
 }
