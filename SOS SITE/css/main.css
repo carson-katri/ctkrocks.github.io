@@ -196,6 +196,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
+.moneystacks {
+	width: 300px;
+}
+
+.typewriter {
+	width: 300px;
+}
+
 #contact {
 	width: 100%;
 	background-color: #fff;
@@ -236,14 +244,16 @@ input, textarea {
 
 button, input, .btn, textarea {
 	background-color: #89ecda;
-	border: none;
+	border-width: 0;
 	color: #fff;
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 2rem;
 }
 
 input:invalid {
-	background-color: rgb(255, 0, 0);
+	border-style: solid;
+	border-color: #fc7f6c;
+	border-width: 5px;
 }
 
 .navbar-toggler-icon {
