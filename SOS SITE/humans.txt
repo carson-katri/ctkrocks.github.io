@@ -3,13 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Carson Katri -- Lead web developer -- @techcrewyt (twitter)
+    Collyn Carey -- Founder -- @cicifl (ig)
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, JavaScript
+    jQuery, Normalize.css
