@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #3bd6c6;
+    background-color: #fff;
     overflow-x: none;
 }
 
@@ -25,10 +25,10 @@ body {
 #home {
 	height: 100vh;
 	position: relative;
-	background-color: #3bd6c6;
+	background-color: #fff;
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #3bd6c6;
 	overflow-x: none;
 }
 
@@ -97,7 +97,7 @@ span {
 }
 
 .wave {
-    fill: #89ecda;
+    fill: #3bd6c6;
     pointer-events: none;
     z-index: -1;
     -webkit-transition: -webkit-transform 0.7s, fill 0.7s;
@@ -148,7 +148,7 @@ span {
 	height: 50px;
 	font-size: 17pt;
 	font-weight: 700;
-	background-color: #89ecda;
+	background-color: #3bd6c6;
 	text-align: center;
 
 	text-decoration: none !important;
@@ -200,19 +200,23 @@ input[type=number]::-webkit-outer-spin-button {
 	width: 300px;
 }
 
-.typewriter {
+.checklist {
+	width: 300px;
+}
+
+.phone {
 	width: 300px;
 }
 
 #contact {
-	width: 100%;
+	max-width: 500px;
 	background-color: #fff;
 	margin: 0 auto;
-	padding: 50px;
 }
 
 h1, h2 {
 	font-weight: 700;
+	color: #3bd6c6;
 }
 
 h3 {
@@ -281,4 +285,19 @@ input:invalid {
 	border-width: 2px;
 	border-color: #eee;
 	border-radius: 10px;
+}
+
+.footer {
+	height: 60px;
+	text-align: center;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-weight: 600;
+}
+
+.footer a {
+	color: #3bd6c6 !important;
+	font-weight: 900;
 }
