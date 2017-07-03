@@ -301,3 +301,11 @@ input:invalid {
 	color: #3bd6c6 !important;
 	font-weight: 900;
 }
+
+/* DESIGNED BY CARSON KATRI */
+.dbck {
+	color: #49ffbc;
+	background: -webkit-linear-gradient(#49ffbc, #49f8ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
